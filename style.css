@@ -1,5 +1,5 @@
 
-.logo,.Focused{
+.logo,.Focused,.title{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -11,13 +11,15 @@
     padding:0;
     box-sizing:border-box;
 }
+  
+ /* Header */
 
 .header{
     text-align: center;
     padding: 50px 20px;
     background-image: url('B12A01-landing-launchpad/Assets/Hero-bg.png');
     background-repeat: no-repeat;
-    margin-bottom: 180px;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -38,6 +40,8 @@ color:#4E47FF;
     align-items: center;
     
 }
+ 
+/* Common Button */
 
 .btn-primary{
     padding: 6px 12px;
@@ -59,4 +63,43 @@ color:#4E47FF;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 90px;
+}
+
+/* container-one */
+
+.container-one{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 0px;
+    margin-right: 150px;
+    margin-left: 260px;
+    padding-top: 10px;
+}
+
+.image{
+    min-width: 300px;
+}
+
+.image img{
+    height: 200px;
+    width:210px;
+    border-radius: 10px;
+}
+
+.left-content{
+    gap: 23px;
+}
+
+main{
+    padding-top: 10px;
+}
+
+.sub-title{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  color:#8987A1;
+  font-style: normal;
 }
