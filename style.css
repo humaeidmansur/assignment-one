@@ -1,5 +1,5 @@
 
-.logo,.Focused,.title ,.productive ,.digit{
+.logo,.Focused,.title ,.productive ,.digit, .review-heading ,.name,.review-title{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -130,7 +130,7 @@ main{
   display: flex;
   justify-content: center;
   gap: 40px;
-  /*flex-wrap: wrap;*/
+  
   
 }
 
@@ -158,4 +158,102 @@ main{
 
 /* section three */
 
+
+
+.section-title {
+  text-align: center;
+  padding: 60px 20px 20px;
+}
+
+.review-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 40px;
+}
+
+.container-three {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  max-width: 785px;
+  margin: auto;
+}
+
+.review {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  width: 300px;
+  height: 230px;
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.review:hover {
+  transform: translateY(-5px);
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+}
+
+.review-title {
+   
+  margin: 15px 0 10px;
+  color: #222;
+}
+
+.skill-descruption {
+  font-size: 0.95em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: ;
+}
+
+
+.Account{
+  display: flex;
+}
+
+.account {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+} 
+
+.Name{
+  margin-bottom:100px;
+  margin-top:10px;
+  margin-left: 20px;
+}
+
+.user {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+}
+
+.name {
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+  
+  
+}
+
+.Date {
+  font-size: 10px;
+  color: #aaa;
+  display: ;
+}
 
