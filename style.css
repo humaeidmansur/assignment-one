@@ -1,5 +1,5 @@
 
-.logo,.Focused,.title{
+.logo,.Focused,.title ,.productive ,.digit{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -53,7 +53,7 @@ color:#4E47FF;
 
 }
 
-.container{
+main{
     max-width:1200px;
     margin: 0 auto;
 }
@@ -63,6 +63,9 @@ color:#4E47FF;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 90px;
+    padding-left: 45px;
+    padding-right: 45px;
+    
 }
 
 /* container-one */
@@ -75,9 +78,11 @@ color:#4E47FF;
     gap: 30px;
     margin-top: 0px;
     margin-right: 150px;
-    margin-left: 260px;
+    margin-left: 40px;
     padding-top: 10px;
+    padding-left: 200px;
 }
+
 
 .image{
     min-width: 300px;
@@ -90,7 +95,7 @@ color:#4E47FF;
 }
 
 .left-content{
-    gap: 23px;
+    gap: 3px;
 }
 
 main{
@@ -103,3 +108,54 @@ main{
   color:#8987A1;
   font-style: normal;
 }
+
+/* container-two */
+
+
+.container-two{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  background-color: rgba(189, 188, 238, 0.695);
+  padding: 30px 0px;
+  border-radius: 10px;
+  max-width: 735px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.digit-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  /*flex-wrap: wrap;*/
+  
+}
+
+.digit {
+  min-width: 150px;
+}
+
+.digit h3 {
+  font-size: 50px;
+  color: #4E47FF;
+  margin-bottom: 5px;
+}
+
+.digit p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.productive {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #111;
+  margin: 0;
+}
+
+/* section three */
+
+
